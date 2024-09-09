@@ -1,6 +1,1 @@
-{
-  "greeting": "Have a great day {{username}}",
-  "title": "Hi There",
-  "to-client-page": "To client page",
-  "to-second-page": "To second page"
-}
+{"greeting":"Have a great day {{username}}","title":"Hi There","to-client-page":"To client page","to-second-page":"To second page"}
