@@ -1,6 +1,7 @@
 import Link from "next/link";
 import initTranslations from "../i18n";
 import TranslationsProvider from "@/components/TranslationsProvider";
+import ExampleClientComponent from "@/components/exampleClientComponent";
 
 export default async function Home({ params: { locale } }) {
   const i18Namespaces = ["home", "common"];
@@ -14,6 +15,7 @@ export default async function Home({ params: { locale } }) {
     >
       <div>
         <h1>{t("title")}</h1>
+        <ExampleClientComponent />
         <Link href={`/${lng}/about`}>{t("common:about_us")}</Link>
         <br />
         <Link href={`/${lng}/second`}>{t("to-second-page")}</Link>
